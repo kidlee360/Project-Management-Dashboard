@@ -1,0 +1,19 @@
+__turbopack_load_page_chunks__("/", [
+  "static/chunks/[root-of-the-server]__017cea6f._.js",
+  "static/chunks/node_modules_next_dist_compiled_44618872._.js",
+  "static/chunks/node_modules_next_dist_shared_lib_cf5b50a6._.js",
+  "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+  "static/chunks/node_modules_next_dist_7fdbac9b._.js",
+  "static/chunks/node_modules_next_head_6b89d279.js",
+  "static/chunks/node_modules_react_e3593a73._.js",
+  "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
+  "static/chunks/node_modules_react-dom_8a8085df._.js",
+  "static/chunks/node_modules_axios_lib_2c8bf6cb._.js",
+  "static/chunks/node_modules_@dnd-kit_core_dist_core_esm_34c452fb.js",
+  "static/chunks/node_modules_@mui_material_esm_a4cea5a0._.js",
+  "static/chunks/node_modules_@mui_system_esm_fc170361._.js",
+  "static/chunks/node_modules_ab9115b4._.js",
+  "static/chunks/views_fa2dae04._.css",
+  "static/chunks/pages_index_2da965e7._.js",
+  "static/chunks/turbopack-pages_index_58891239._.js"
+])

@@ -1,0 +1,44 @@
+/* [project]/gemini-next-app/views/HomeComponent.module.css [client] (css) */
+.HomeComponent-module__3SabYG__app {
+  text-align: center;
+}
+
+.HomeComponent-module__3SabYG__check {
+  background: #61dafb;
+  grid-template: "logo header header header" 50px
+                 "sidebar content1 content2 content3" calc(100vh - 70px)
+                 / 50px 250px 250px 250px;
+  gap: 20px;
+  display: grid;
+  overflow-x: auto;
+}
+
+.HomeComponent-module__3SabYG__header {
+  background-color: #cebb14;
+  border-radius: 20px;
+  grid-area: 1 / 2 / 2 / 5;
+}
+
+.HomeComponent-module__3SabYG__sidebar {
+  background-color: #b40c36;
+  border-radius: 20px;
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.HomeComponent-module__3SabYG__content1 {
+  border-radius: 10px;
+  grid-area: 2 / 2 / 3 / 3;
+  box-shadow: inset 12px 12px 12px #0000001a, inset -12px -12px 12px #3a39391a;
+}
+
+.HomeComponent-module__3SabYG__content2 {
+  background-color: #0c4eb4;
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.HomeComponent-module__3SabYG__content3 {
+  background-color: #b40ca1;
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+/*# sourceMappingURL=gemini-next-app_views_HomeComponent_module_b53ac292.css.map*/

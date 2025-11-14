@@ -1,0 +1,22 @@
+/* [project]/views/HomeComponent.module.css [client] (css) */
+.HomeComponent-module__rFbzXW__container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.HomeComponent-module__rFbzXW__title {
+  color: brown;
+  margin: 0;
+  font-size: 4rem;
+  line-height: 1.15;
+}
+
+.HomeComponent-module__rFbzXW__description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=views_HomeComponent_module_0f88bef9.css.map*/

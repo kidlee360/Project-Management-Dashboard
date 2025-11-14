@@ -1,0 +1,52 @@
+[00:00:04.079] Server  LOG      ✓ Ready in 2.8s
+[00:00:16.666] Server  LOG      ○ Compiling / ...
+[00:00:35.376] Browser LOG     {"columnName":"To Do","description":"","due_date":"","priority":"","task":"milk"}
+[00:00:35.377] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"","due_date":"","priority":"","task":"milk"}
+[00:00:37.492] Browser LOG     {"columnName":"To Do","description":"buy milk","due_date":"","priority":"","task":"milk"}
+[00:00:37.492] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"buy milk","due_date":"","priority":"","task":"milk"}
+[00:00:43.258] Browser LOG     {"columnName":"To Do","description":"buy milk","due_date":"2025-11-07","priority":"","task":"milk"}
+[00:00:43.258] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"buy milk","due_date":"2025-11-07","priority":"","task":"milk"}
+[00:00:46.068] Browser LOG     {"columnName":"To Do","description":"buy milk","due_date":"2025-11-07","priority":"high","task":"milk"}
+[00:00:46.068] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"buy milk","due_date":"2025-11-07","priority":"high","task":"milk"}
+[00:01:26.942] Browser LOG     {"email":"","password":"","userName":"k"}
+[00:01:26.942] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"k"}
+[00:01:27.210] Browser LOG     {"email":"","password":"","userName":"ki"}
+[00:01:27.210] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"ki"}
+[00:01:27.786] Browser LOG     {"email":"","password":"","userName":"kid"}
+[00:01:27.786] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid"}
+[00:01:27.786] Browser LOG     {"email":"","password":"","userName":"kid "}
+[00:01:27.787] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid "}
+[00:01:28.127] Browser LOG     {"email":"","password":"","userName":"kid l"}
+[00:01:28.127] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid l"}
+[00:01:28.284] Browser LOG     {"email":"","password":"","userName":"kid le"}
+[00:01:28.284] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid le"}
+[00:01:28.488] Browser LOG     {"email":"","password":"","userName":"kid lee"}
+[00:01:28.488] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid lee"}
+[00:01:30.910] Browser LOG     {"email":"ugoleevi@gmail.com","password":"","userName":"kid lee"}
+[00:01:30.911] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"ugoleevi@gmail.com","password":"","userName":"kid lee"}
+[00:01:34.320] Browser LOG     {"email":"ugoleevi@gmail.com","password":"Kidlee","userName":"kid lee"}
+[00:01:34.320] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"ugoleevi@gmail.com","password":"Kidlee","userName":"kid lee"}
+[00:01:35.954] Server  WARN    API handler should not return a value, received number.
+[00:01:36.074] Browser LOG     {"message":"Login successful"}
+[00:01:53.062] Browser LOG     undefined
+[00:01:53.828] Browser LOG     Attempting to move task with payload: {"columnname":"In Progress","id":19}
+[00:01:54.025] Browser LOG     Task move successful for task ID: 19
+[00:01:58.299] Browser LOG     {"columnName":"To Do","description":"","due_date":"","priority":"","task":"milk"}
+[00:01:58.299] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"","due_date":"","priority":"","task":"milk"}
+[00:02:00.634] Browser LOG     {"columnName":"To Do","description":"update","due_date":"","priority":"","task":"milk"}
+[00:02:00.634] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"update","due_date":"","priority":"","task":"milk"}
+[00:02:03.224] Browser LOG     {"columnName":"To Do","description":"update","due_date":"","priority":"medium","task":"milk"}
+[00:02:03.224] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"update","due_date":"","priority":"medium","task":"milk"}
+[00:02:04.645] Server  ERROR   Database Error: error: invalid input syntax for type date: ""
+[00:02:04.767] Browser ERROR   Error adding task: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"[\"milk\",\"update\",\"\",\"To Do\",\"medium\"]","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/tasks","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:1954:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2469:167)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:3273:49)\n    at async Object.addTask [as onAdd] (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__017cea6f._.js:1728:30)","status":500}
+[00:02:36.446] Browser LOG     {"columnName":"To Do","description":"","due_date":"","priority":"","task":"milk"}
+[00:02:36.446] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"","due_date":"","priority":"","task":"milk"}
+[00:02:40.820] Browser LOG     {"columnName":"To Do","description":"ddddddddddddddddddddddddddddd","due_date":"","priority":"","task":"milk"}
+[00:02:40.820] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"ddddddddddddddddddddddddddddd","due_date":"","priority":"","task":"milk"}
+[00:02:44.270] Browser LOG     {"columnName":"To Do","description":"ddddddddddddddddddddddddddddd","due_date":"2025-11-13","priority":"","task":"milk"}
+[00:02:44.271] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"ddddddddddddddddddddddddddddd","due_date":"2025-11-13","priority":"","task":"milk"}
+[00:02:46.481] Browser LOG     {"columnName":"To Do","description":"ddddddddddddddddddddddddddddd","due_date":"2025-11-13","priority":"medium","task":"milk"}
+[00:02:46.481] Browser LOG     [2;38;2;124;124;124m%s[0m {"columnName":"To Do","description":"ddddddddddddddddddddddddddddd","due_date":"2025-11-13","priority":"medium","task":"milk"}
+[00:03:25.963] Browser LOG     undefined
+[00:03:28.677] Browser LOG     Attempting to move task with payload: {"columnname":"In Progress","id":20}
+[00:03:28.898] Browser LOG     Task move successful for task ID: 20
