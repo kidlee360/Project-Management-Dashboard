@@ -11,6 +11,7 @@ if (!connectionString) {
   throw new Error("DATABASE_URL is missing.");
 }
 
+
 const pool = new Pool({
   // Use the single connection string
   connectionString: connectionString,
