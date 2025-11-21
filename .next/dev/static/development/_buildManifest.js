@@ -12,7 +12,6 @@ self.__BUILD_MANIFEST = {
     "/_app",
     "/_error",
     "/api/tasks",
-    "/api/users",
-    "/api/users/id"
+    "/api/users"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

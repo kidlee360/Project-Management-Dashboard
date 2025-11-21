@@ -18,7 +18,7 @@ const pool = new Pool({
   // *** CRITICAL ADDITIONS FOR VERCEL/SUPABASE ***
   max: 2, // Limit connections to prevent serverless function memory exhaustion
   idleTimeoutMillis: 30000, // Close idle connections after 30 seconds
-  connectionTimeoutMillis: 2000, // Timeout connection after 2 seconds
+  connectionTimeoutMillis: 10000, // Timeout connection after 10 seconds (increased from 2)
   // Add SSL settings required by Supabase/Render/many hosts for secure connection
   ssl: {
     // This allows the connection even if the certificate cannot be verified, 

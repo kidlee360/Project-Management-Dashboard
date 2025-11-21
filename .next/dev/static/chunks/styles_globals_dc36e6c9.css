@@ -1,7 +1,7 @@
 /* [project]/styles/globals.css [client] (css) */
 html, body {
-  background-color: #00d6d6;
-  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  background-image: url("../media/background Laptop.92297186.jpg");
+  background-size: cover;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -14,6 +14,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../media/background Phone.b6233206.jpg");
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=styles_globals_dc36e6c9.css.map*/
