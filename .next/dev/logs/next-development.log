@@ -1,4 +1,31 @@
-[00:00:04.694] Server  LOG      ✓ Ready in 3.4s
-[00:00:19.002] Server  LOG      ○ Compiling / ...
-[00:00:23.160] Server  LOG     PostgreSQL Pool initialized using connectionString
-[00:08:13.810] Server  LOG      ✓ Compiled in 38ms
+[00:00:04.028] Server  LOG      ✓ Ready in 2.7s
+[00:00:07.196] Server  LOG      ○ Compiling / ...
+[00:01:20.261] Server  LOG     PostgreSQL Pool initialized using connectionString
+[00:01:30.814] Server  ERROR   Database Error: Error: Connection terminated due to connection timeout
+[00:01:30.936] Browser ERROR   Error fetching tasks: {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/tasks","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:1954:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2469:167)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:3273:49)\n    at async fetchTasks (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__017cea6f._.js:1703:30)","status":500}
+[00:01:45.206] Browser LOG     {"email":"","password":"","userName":"k"}
+[00:01:45.206] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"k"}
+[00:01:45.613] Browser LOG     {"email":"","password":"","userName":"ki"}
+[00:01:45.613] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"ki"}
+[00:01:45.739] Browser LOG     {"email":"","password":"","userName":"kid"}
+[00:01:45.739] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid"}
+[00:01:45.911] Browser LOG     {"email":"","password":"","userName":"kid "}
+[00:01:45.911] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid "}
+[00:01:46.538] Browser LOG     {"email":"","password":"","userName":"kid l"}
+[00:01:46.538] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid l"}
+[00:01:46.666] Browser LOG     {"email":"","password":"","userName":"kid le"}
+[00:01:46.666] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid le"}
+[00:01:46.849] Browser LOG     {"email":"","password":"","userName":"kid lee"}
+[00:01:46.849] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"","password":"","userName":"kid lee"}
+[00:01:49.380] Browser LOG     {"email":"ugoleevi@gmail.com","password":"","userName":"kid lee"}
+[00:01:49.380] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"ugoleevi@gmail.com","password":"","userName":"kid lee"}
+[00:01:51.246] Browser LOG     {"email":"ugoleevi@gmail.com","password":"Kidlee","userName":"kid lee"}
+[00:01:51.246] Browser LOG     [2;38;2;124;124;124m%s[0m {"email":"ugoleevi@gmail.com","password":"Kidlee","userName":"kid lee"}
+[00:01:52.939] Server  WARN    API handler should not return a value, received number.
+[00:01:53.063] Browser LOG     {"message":"Login successful"}
+[00:02:16.060] Browser LOG     undefined
+[00:02:16.912] Browser LOG     Attempting to move task with payload: {"columnname":"In Progress","id":21}
+[00:02:17.180] Browser LOG     Task move successful for task ID: 21
+[00:02:18.365] Browser LOG     undefined
+[00:02:19.335] Browser LOG     Attempting to move task with payload: {"columnname":"To Do","id":20}
+[00:02:19.563] Browser LOG     Task move successful for task ID: 20
