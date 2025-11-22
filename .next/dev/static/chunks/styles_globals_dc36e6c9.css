@@ -1,6 +1,8 @@
 /* [project]/styles/globals.css [client] (css) */
 html, body {
   background-image: url("../media/background Laptop.92297186.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   padding: 0;

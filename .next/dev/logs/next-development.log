@@ -1,13 +1,4 @@
-[00:00:05.173] Server  LOG      ✓ Ready in 3.7s
-[00:00:05.202] Browser LOG     undefined
-[00:00:05.202] Browser LOG     Attempting to move task with payload: {"columnname":"Done","id":21}
-[00:00:05.202] Browser ERROR   Error moving task 21 to Done: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"id\":21,\"columnname\":\"Done\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"patch","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/tasks","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2515:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:3273:49)\n    at async moveTask (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__017cea6f._.js:1803:13)"}
-[00:00:05.202] Browser ERROR   Error fetching tasks: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/tasks","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2515:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:3273:49)\n    at async fetchTasks (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__017cea6f._.js:1703:30)"}
-[00:00:08.322] Server  LOG      ○ Compiling / ...
-[00:01:30.790] Server  LOG     PostgreSQL Pool initialized using connectionString
-[00:01:36.701] Browser LOG     undefined
-[00:01:37.221] Browser LOG     Attempting to move task with payload: {"columnname":"Done","id":20}
-[00:01:37.515] Browser LOG     Task move successful for task ID: 20
-[00:01:38.643] Browser LOG     undefined
-[00:01:39.311] Browser LOG     Attempting to move task with payload: {"columnname":"In Progress","id":20}
-[00:01:40.136] Browser LOG     Task move successful for task ID: 20
+[00:00:04.694] Server  LOG      ✓ Ready in 3.4s
+[00:00:19.002] Server  LOG      ○ Compiling / ...
+[00:00:23.160] Server  LOG     PostgreSQL Pool initialized using connectionString
+[00:08:13.810] Server  LOG      ✓ Compiled in 38ms
